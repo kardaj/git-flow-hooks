@@ -2,9 +2,12 @@
 
 make sure:
 1. `bump2version` is installed
-2. your `.bumpversion.cfg` is set
+2. your `.bumpversion.cfg` is set (replace `<package>`with your package name)
 3. `git-flow-avh` is installed
-4. replace `<package>`with your package name
+
+run:
+1. clone this repository
+2. git flow init: when prompted for git hook folder, point to the local version of this repository
 
 #### .bumpversion.cfg
 
